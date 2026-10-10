@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101310">
+<meta name="description" content="Treinos, refeições, hábitos e evolução em um só lugar.">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<title>FORGE — Minha rotina</title>
+<style>
+:root{color-scheme:dark;--bg:#0b0e0b;--panel:#151a16;--panel2:#202720;--line:#2c362e;--txt:#f3f6f0;--muted:#a1ada1;--lime:#c6f36a;--red:#ff9999}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:15px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;padding-bottom:92px}button,input,textarea,select{font:inherit}button{cursor:pointer}.wrap{max-width:760px;margin:auto;padding:16px}.top{display:flex;justify-content:space-between;align-items:center;padding:8px 0 20px}.logo{font-size:22px;font-weight:950;letter-spacing:.1em}.logo b{color:var(--lime)}.date{font-size:12px;color:var(--muted)}.hero{border:1px solid #39472f;border-radius:24px;padding:22px;background:linear-gradient(140deg,#273520,#151a16 65%);margin-bottom:16px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:10px;font-weight:900;color:var(--lime)}h1{font-size:34px;line-height:1.04;margin:10px 0}h2{font-size:21px;margin:0}h3{font-size:16px;margin:0}.hero p,.muted{color:var(--muted);line-height:1.5}.hero p{font-size:14px;max-width:420px}.btn{border:0;background:var(--lime);color:#11160e;font-weight:850;padding:12px 15px;border-radius:12px}.btn.secondary{background:var(--panel2);color:var(--txt);border:1px solid var(--line)}.btn.danger{color:var(--red)}.btn.sm{padding:8px 10px;font-size:12px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0 22px}.stat,.card{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:14px}.stat strong{font-size:22px;display:block}.stat span{font-size:10px;color:var(--muted)}.head{display:flex;align-items:end;justify-content:space-between;gap:10px;margin:22px 0 12px}.muted{font-size:12px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}.tile{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:15px;text-align:left;color:var(--txt);min-height:104px}.tile .emoji{font-size:24px;display:block;margin-bottom:9px}.tile small{display:block;color:var(--muted);margin-top:5px;line-height:1.4}.view{display:none}.view.active{display:block}.nav{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:center;gap:3px;background:#101310f5;border-top:1px solid var(--line);padding:8px 5px calc(8px + env(safe-area-inset-bottom));z-index:4;backdrop-filter:blur(12px)}.nav button{flex:1;max-width:120px;background:none;border:0;color:var(--muted);border-radius:12px;padding:8px 2px;font-size:10px;font-weight:800}.nav button.active{background:var(--panel2);color:var(--lime)}.nav span{display:block;font-size:19px;margin-bottom:3px}.days{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin:12px 0}.day{border:1px solid var(--line);border-radius:11px;padding:11px 2px;background:var(--panel);color:var(--muted);font-weight:800}.day.active{background:var(--lime);color:#11160e}.exercise{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:14px;margin-bottom:9px}.exrow{display:flex;gap:10px;align-items:flex-start}.check{width:22px;height:22px;accent-color:var(--lime);flex-shrink:0}.exname{font-weight:800}.pres{color:var(--muted);font-size:12px;margin-top:4px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}.field label{display:block;font-size:11px;color:var(--muted);margin-bottom:4px}.field input,.field textarea,.field select,.fullinput{width:100%;background:#0c100d;color:var(--txt);border:1px solid var(--line);border-radius:10px;padding:10px;outline:none}.progress{height:6px;background:#293129;border-radius:99px;overflow:hidden;margin:12px 0}.progress div{height:100%;background:var(--lime);width:0}.listrow{display:flex;align-items:center;gap:10px;padding:11px 0;border-bottom:1px solid var(--line)}.listrow:last-child{border:0}.listrow input[type=checkbox]{accent-color:var(--lime);width:20px;height:20px}.listrow .grow{flex:1}.pill{font-size:10px;color:var(--lime);background:#293522;padding:5px 8px;border-radius:99px}.food{margin-bottom:10px}.food .tag{color:var(--lime);font-size:11px;font-weight:800}.food p{font-size:13px;color:var(--muted);line-height:1.45;margin:7px 0}.timer{font-size:42px;text-align:center;font-weight:950;margin:12px}.center{text-align:center}.note{font-size:11px;line-height:1.5;color:var(--muted);margin-top:12px}.hidden{display:none!important}.toast{position:fixed;left:16px;right:16px;bottom:90px;background:var(--lime);color:#111;padding:12px;border-radius:12px;font-weight:800;text-align:center;display:none;z-index:10}.smalltext{font-size:12px}.section-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin:15px 0 7px}.footer{text-align:center;color:#68746a;font-size:10px;padding:22px 0}@media(min-width:600px){.wrap{padding:24px}.hero{padding:30px}.nav button{font-size:12px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><div class="logo">FORGE<b>.</b></div><div class="date" id="today"></div></header>
+
+<section class="view active" id="home">
+ <div class="hero"><div class="eyebrow">Seu painel pessoal</div><h1>Construa sua<br>melhor rotina.</h1><p>Treino, alimentação, hábitos e organização num só lugar. Um passo de cada vez, sem atalhos.</p><button class="btn" onclick="go('workout')">Começar treino ↗</button></div>
+ <div class="stats"><div class="stat"><strong id="sSessions">0</strong><span>TREINOS SALVOS</span></div><div class="stat"><strong id="sTasks">0</strong><span>TAREFAS FEITAS</span></div><div class="stat"><strong id="sWater">0</strong><span>COPOS DE ÁGUA HOJE</span></div></div>
+ <div class="head"><h2>Atalhos</h2><span class="muted">Sua rotina</span></div>
+ <div class="grid2">
+  <button class="tile" onclick="go('workout')"><span class="emoji">🏋️</span><b>Treino</b><small>Exercícios, cargas e descanso</small></button>
+  <button class="tile" onclick="go('food')"><span class="emoji">🍽️</span><b>Ideias de comida</b><small>Refeições simples e equilibradas</small></button>
+  <button class="tile" onclick="go('habits')"><span class="emoji">✅</span><b>Minha rotina</b><small>Hábitos e tarefas do dia</small></button>
+  <button class="tile" onclick="go('progress')"><span class="emoji">📈</span><b>Evolução</b><small>Histórico e registros</small></button>
+ </div>
+ <div class="head"><h2>Missão de hoje</h2><span class="pill" id="todayDone">0 concluídas</span></div>
+ <div class="card" id="todayMission"></div>
+ <div class="footer">FORGE · Consistência acima da perfeição.</div>
+</section>
+
+<section class="view" id="workout">
+ <div class="head"><div><div class="eyebrow">Plano semanal</div><h2 id="wTitle">Segunda · Peito + tríceps</h2></div><button class="btn sm" onclick="finishWorkout()">Salvar</button></div>
+ <div class="days" id="dayButtons"></div><div class="muted" id="wCount">0 exercícios concluídos</div><div class="progress"><div id="wProgress"></div></div>
+ <div id="exerciseList"></div>
+ <div class="card"><div class="head" style="margin-top:0"><h3>⏱ Descanso entre séries</h3><span class="muted">Cronômetro</span></div><div class="timer" id="timer">02:00</div><div class="center"><button class="btn secondary sm" onclick="setTimer(60)">60s</button> <button class="btn secondary sm" onclick="setTimer(90)">90s</button> <button class="btn secondary sm" onclick="setTimer(120)">120s</button> <button class="btn sm" id="timerBtn" onclick="toggleTimer()">Iniciar</button></div></div>
+ <p class="note">Use cargas que permita controlar. Termine a maioria das séries com 1–3 repetições em reserva. Não teste cargas máximas sozinho.</p>
+</section>
+
+<section class="view" id="food">
+ <div class="head"><div><div class="eyebrow">Combustível do corpo</div><h2>Ideias de refeições</h2></div></div>
+ <p class="muted">Sugestões práticas para variar a alimentação. Ajuste às suas preferências, fome e rotina — sem dietas restritivas.</p>
+ <div class="section-label">Café da manhã</div><div id="breakfast"></div>
+ <div class="section-label">Almoço e jantar</div><div id="lunch"></div>
+ <div class="section-label">Lanches e pré/pós-treino</div><div id="snacks"></div>
+ <div class="card"><h3>🛒 Lista de compras</h3><p class="muted">Marque o que precisa comprar. Pode editar a lista.</p><div class="field"><label>Adicionar item</label><div class="row" style="display:flex;gap:8px"><input id="groceryInput" class="fullinput" placeholder="Ex.: banana"><button class="btn sm" onclick="addGrocery()">Adicionar</button></div></div><div id="groceryList"></div></div>
+ <p class="note">Não existe um único alimento que faça o shape. Variedade, refeições regulares e energia suficiente ajudam a sustentar treino, crescimento e recuperação.</p>
+</section>
+
+<section class="view" id="habits">
+ <div class="head"><div><div class="eyebrow">Pequenas ações</div><h2>Minha rotina</h2></div><span class="pill" id="habitCount">0/0</span></div>
+ <div class="card"><h3>🌱 Hábitos diários</h3><div id="habitList"></div><div class="progress"><div id="habitProgress"></div></div><p class="note">O objetivo é consistência, não perfeição. Desmarque e ajuste sem culpa quando necessário.</p></div>
+ <div class="card"><h3>📝 Minhas tarefas</h3><p class="muted">Escreva coisas que precisa fazer além do treino.</p><div class="field"><label>Nova tarefa</label><div class="row" style="display:flex;gap:8px"><input id="taskInput" class="fullinput" placeholder="Ex.: separar roupa de amanhã"><button class="btn sm" onclick="addTask()">Adicionar</button></div></div><div id="taskList"></div></div>
+ <div class="card"><h3>💧 Água</h3><p class="muted">Registre copos ao longo do dia. É um lembrete, não uma meta médica fixa.</p><div class="row"><button class="btn secondary" onclick="water(-1)">−</button><div class="center"><strong style="font-size:26px" id="waterCount">0</strong><div class="muted">copos hoje</div></div><button class="btn" onclick="water(1)">+ 1 copo</button></div></div>
+</section>
+
+<section class="view" id="progress">
+ <div class="head"><div><div class="eyebrow">Acompanhamento</div><h2>Sua evolução</h2></div><button class="btn secondary sm" onclick="exportData()">Exportar</button></div>
+ <div class="stats"><div class="stat"><strong id="pSessions">0</strong><span>TREINOS</span></div><div class="stat"><strong id="pExercises">0</strong><span>EXERCÍCIOS FEITOS</span></div><div class="stat"><strong id="pDays">0</strong><span>DIAS ATIVOS</span></div></div>
+ <div class="card"><h3>🏆 Maiores cargas anotadas</h3><div id="bestLoads" class="muted" style="margin-top:10px">Registre cargas no treino para começar.</div></div>
+ <div class="card"><h3>📅 Histórico de sessões</h3><div id="history"></div></div>
+ <div class="card"><h3>Backup dos dados</h3><p class="muted">Exporte seus dados periodicamente para não perder registros.</p><button class="btn" onclick="exportData()">Baixar backup (.json)</button></div>
+</section>
+
+<section class="view" id="settings">
+ <div class="head"><div><div class="eyebrow">Seu aplicativo</div><h2>Configurações</h2></div></div>
+ <div class="card"><h3>Instalação</h3><p class="muted">Depois de hospedar este projeto em um endereço HTTPS, use o menu do navegador e escolha “Instalar app” ou “Adicionar à tela inicial”, se disponível.</p><button class="btn secondary" id="installBtn" onclick="installApp()">Instalar app</button><p class="note" id="installHelp">Se o botão não aparecer, abra o menu do navegador. A instalação exige que o projeto esteja hospedado em HTTPS ou localhost.</p></div>
+ <div class="card"><h3>Dados e privacidade</h3><p class="muted">Seus registros ficam no armazenamento local deste navegador. Eles não são enviados a uma conta online. Exporte um backup antes de limpar dados ou trocar de aparelho.</p><button class="btn secondary" onclick="exportData()">Exportar meus dados</button></div>
+ <div class="card"><h3>Reiniciar dados</h3><button class="btn secondary danger" onclick="resetAll()">Apagar registros deste aparelho</button></div>
+ <div class="card"><h3>Treino responsável</h3><p class="muted">Como você ainda está na adolescência, priorize técnica, sono de 8–10 horas, alimentação suficiente e progressão gradual. Converse com profissional de saúde antes de usar suplementos. Não use anabolizantes.</p></div>
+</section>
+<div class="footer">FORGE · Feito para sua rotina real.</div>
+</div>
+<nav class="nav">
+<button class="active" data-id="home" onclick="go('home')"><span>⌂</span>Início</button>
+<button data-id="workout" onclick="go('workout')"><span>✦</span>Treino</button>
+<button data-id="food" onclick="go('food')"><span>🍽</span>Comida</button>
+<button data-id="habits" onclick="go('habits')"><span>✓</span>Rotina</button>
+<button data-id="progress" onclick="go('progress')"><span>↗</span>Evolução</button>
+</nav>
+<div class="toast" id="toast"></div>
+<script>
+const plan=[
+{name:'Segunda',title:'Peito + tríceps + abdômen',items:[['Supino reto (barra ou máquina)','3 × 5–8'],['Supino inclinado com halteres','3 × 8–12'],['Crucifixo na máquina','2 × 12–15'],['Tríceps na polia','3 × 10–15'],['Crunch na máquina ou polia','3 × 10–15'],['Prancha','2 × 30–45 s']]},
+{name:'Terça',title:'Costas + bíceps + pegada',items:[['Puxada alta ou barra fixa assistida','3 × 6–10'],['Remada com apoio para o peito','3 × 6–10'],['Pullover na polia','2 × 10–15'],['Rosca direta','3 × 8–12'],['Rosca martelo','2 × 10–15'],['Caminhada do fazendeiro','3 × 20–30 s']]},
+{name:'Quarta',title:'Pernas + abdômen',items:[['Agachamento ou hack squat','3 × 6–10'],['Leg press','3 × 8–12'],['Mesa flexora','3 × 10–15'],['Levantamento romeno','2 × 8–12'],['Panturrilha','3 × 12–20'],['Elevação de joelhos','2 × 10–15']]},
+{name:'Quinta',title:'Peito + ombros + tríceps',items:[['Supino inclinado (barra ou máquina)','3 × 6–10'],['Supino reto com halteres','2 × 8–12'],['Desenvolvimento com halteres','3 × 8–10'],['Elevação lateral','3 × 12–15'],['Crucifixo inverso na máquina','2 × 12–15'],['Tríceps acima da cabeça na polia','3 × 10–15']]},
+{name:'Sexta',title:'Costas + braços + antebraços',items:[['Remada baixa','3 × 8–12'],['Puxada alta','3 × 8–12'],['Rosca Scott','3 × 10–12'],['Flexão de punho','2 × 12–15'],['Extensão de punho','2 × 12–15'],['Tríceps na polia','2 × 10–15'],['Sustentação de halteres','2 × 20–30 s'],['Prancha lateral','2 × 20–40 s por lado']]}
+];
+const meals={
+breakfast:[['🥣','Aveia, banana e iogurte','Misture aveia, banana e iogurte; acrescente canela se gostar.'],['🍳','Pão com ovos e fruta','Pão, ovos mexidos e uma fruta da estação.'],['🥛','Vitamina simples','Leite ou bebida adequada, banana e aveia.']],
+lunch:[['🍛','Arroz, feijão, frango e salada','Uma refeição brasileira simples com carboidrato, proteína e vegetais.'],['🥔','Carne ou ovos com batata e legumes','Troque os ingredientes conforme o que tiver em casa.'],['🍝','Macarrão com carne moída e legumes','Pode preparar porções extras para outro dia.'],['🐟','Peixe, arroz e feijão','Outra combinação equilibrada e fácil de variar.']],
+snacks:[['🍌','Banana e iogurte','Prático antes ou depois do treino, conforme sua fome.'],['🥪','Sanduíche de queijo ou frango','Boa opção quando precisa comer fora de casa.'],['🥜','Fruta e castanhas','Lanche fácil de levar; adapte às suas preferências.']]
+};
+let day=0,timer=120,timerInt=null,installPrompt=null;
+const todayKey=()=>new Date().toISOString().slice(0,10);
+const initial=()=>({logs:{},sessions:[],habits:{},tasks:[],water:{},groceries:[]});
+function load(){try{return {...initial(),...JSON.parse(localStorage.getItem('forgePwaData')||'{}')}}catch(e){return initial()}}
+let db=load();
+function persist(){localStorage.setItem('forgePwaData',JSON.stringify(db));renderHomeStats()}
+function safe(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function go(id){document.querySelectorAll('.view').forEach(x=>x.classList.toggle('active',x.id===id));document.querySelectorAll('.nav button').forEach(x=>x.classList.toggle('active',x.dataset.id===id));if(id==='progress')renderProgress();if(id==='habits')renderHabits();if(id==='home')renderHome();window.scrollTo({top:0,behavior:'smooth'})}
+function logKey(d,i){return d+'_'+i}
+function renderDays(){document.getElementById('dayButtons').innerHTML=plan.map((p,i)=>`<button class="day ${i===day?'active':''}" onclick="selectDay(${i})">${p.name.slice(0,3)}</button>`).join('')}
+function selectDay(i){day=i;renderWorkout()}
+function renderWorkout(){const p=plan[day];document.getElementById('wTitle').textContent=p.name+' · '+p.title;renderDays();document.getElementById('exerciseList').innerHTML=p.items.map((e,i)=>{const k=logKey(day,i),l=db.logs[k]||{};return `<div class="exercise"><div class="exrow"><input class="check" type="checkbox" ${l.done?'checked':''} onchange="updateLog('${k}','done',this.checked)"><div style="flex:1"><div class="exname">${e[0]}</div><div class="pres">${e[1]}</div></div></div><div class="fields"><div class="field"><label>Carga (kg, se aplicável)</label><input type="number" min="0" step=".5" placeholder="Ex.: 20" value="${l.kg??''}" onchange="updateLog('${k}','kg',this.value)"></div><div class="field"><label>Reps / tempo</label><input placeholder="Ex.: 8, 8, 7" value="${safe(l.reps??'')}" onchange="updateLog('${k}','reps',this.value)"></div></div></div>`}).join('');updateWProgress()}
+function updateLog(k,f,v){db.logs[k]??={};db.logs[k][f]=f==='kg'?(v===''?'':Number(v)):v;persist();updateWProgress()}
+function updateWProgress(){const p=plan[day],n=p.items.filter((e,i)=>db.logs[logKey(day,i)]?.done).length;document.getElementById('wCount').textContent=`${n} de ${p.items.length} exercícios concluídos`;document.getElementById('wProgress').style.width=(n/p.items.length*100)+'%'}
+function finishWorkout(){let n=plan[day].items.filter((e,i)=>db.logs[logKey(day,i)]?.done).length;if(!n){toast('Marque pelo menos um exercício concluído.');return}db.sessions.push({day:plan[day].name,title:plan[day].title,date:todayKey(),done:n});persist();toast('Sessão salva. Boa consistência!');renderProgress()}
+function renderMealGroup(id,items){document.getElementById(id).innerHTML=items.map((m,i)=>`<div class="card food"><div class="tag">${m[0]} IDEIA ${i+1}</div><h3 style="margin-top:7px">${m[1]}</h3><p>${m[2]}</p></div>`).join('')}
+const defaultHabits=['Dormir em horário adequado','Fazer refeições regulares','Beber água ao longo do dia','Movimentar o corpo ou treinar conforme o plano','Separar o que preciso para amanhã'];
+function renderHabits(){const hk=todayKey();db.habits[hk]??={};document.getElementById('habitList').innerHTML=defaultHabits.map((h,i)=>`<div class="listrow"><input type="checkbox" ${db.habits[hk][i]?'checked':''} onchange="toggleHabit(${i},this.checked)"><div class="grow">${h}</div></div>`).join('');const n=defaultHabits.filter((h,i)=>db.habits[hk][i]).length;document.getElementById('habitCount').textContent=`${n}/${defaultHabits.length}`;document.getElementById('habitProgress').style.width=(n/defaultHabits.length*100)+'%';document.getElementById('taskList').innerHTML=db.tasks.map((t,i)=>`<div class="listrow"><input type="checkbox" ${t.done?'checked':''} onchange="toggleTask(${i},this.checked)"><div class="grow" style="${t.done?'text-decoration:line-through;color:var(--muted)':''}">${safe(t.text)}</div><button class="btn secondary sm" onclick="deleteTask(${i})">×</button></div>`).join('')||'<p class="muted">Suas tarefas adicionadas aparecem aqui.</p>';document.getElementById('waterCount').textContent=db.water[hk]||0;renderGroceries()}
+function toggleHabit(i,v){const k=todayKey();db.habits[k]??={};db.habits[k][i]=v;persist();renderHabits();renderHome()}
+function addTask(){const el=document.getElementById('taskInput'),v=el.value.trim();if(!v)return;db.tasks.push({text:v,done:false});el.value='';persist();renderHabits()}
+function toggleTask(i,v){db.tasks[i].done=v;persist();renderHabits()}
+function deleteTask(i){db.tasks.splice(i,1);persist();renderHabits()}
+function water(delta){const k=todayKey();db.water[k]=Math.max(0,(db.water[k]||0)+delta);persist();renderHabits()}
+function addGrocery(){const el=document.getElementById('groceryInput'),v=el.value.trim();if(!v)return;db.groceries.push({text:v,done:false});el.value='';persist();renderGroceries()}
+function renderGroceries(){const el=document.getElementById('groceryList');if(!el)return;el.innerHTML=db.groceries.map((g,i)=>`<div class="listrow"><input type="checkbox" ${g.done?'checked':''} onchange="db.groceries[${i}].done=this.checked;persist();renderGroceries()"><div class="grow" style="${g.done?'text-decoration:line-through;color:var(--muted)':''}">${safe(g.text)}</div><button class="btn secondary sm" onclick="db.groceries.splice(${i},1);persist();renderGroceries()">×</button></div>`).join('')||'<p class="muted">Sua lista está vazia.</p>'}
+function renderHomeStats(){document.getElementById('sSessions').textContent=db.sessions.length;document.getElementById('sTasks').textContent=db.tasks.filter(t=>t.done).length;document.getElementById('sWater').textContent=db.water[todayKey()]||0;const done=defaultHabits.filter((h,i)=>db.habits[todayKey()]?.[i]).length;document.getElementById('todayDone').textContent=done+' hábitos';document.getElementById('todayMission').innerHTML=`<div class="row"><div><strong>${done===defaultHabits.length?'Missão concluída!':'Cuide do básico hoje'}</strong><p class="muted" style="margin-bottom:0">${done} de ${defaultHabits.length} hábitos marcados.</p></div><button class="btn secondary sm" onclick="go('habits')">Ver rotina</button></div>`}
+function renderHome(){renderHomeStats();document.getElementById('today').textContent=new Date().toLocaleDateString('pt-BR',{weekday:'short',day:'numeric',month:'short'});renderHomeStats()}
+function renderProgress(){document.getElementById('pSessions').textContent=db.sessions.length;document.getElementById('pExercises').textContent=Object.values(db.logs).filter(l=>l.done).length;document.getElementById('pDays').textContent=new Set(db.sessions.map(s=>s.date)).size;let best={};Object.entries(db.logs).forEach(([k,l])=>{if(l.kg!==''&&l.kg!=null&&Number(l.kg)>0&&(!best[k]||Number(l.kg)>best[k].kg))best[k]={kg:Number(l.kg),reps:l.reps||''}});const b=Object.entries(best);document.getElementById('bestLoads').innerHTML=b.length?b.map(([k,v])=>`<div class="listrow"><div class="grow">${exerciseName(k)}<div class="muted">${v.reps?'Reps/tempo: '+safe(v.reps):'Carga registrada'}</div></div><span class="pill">${v.kg} kg</span></div>`).join(''):'Registre cargas no treino para começar.';document.getElementById('history').innerHTML=db.sessions.length?[...db.sessions].reverse().slice(0,40).map(s=>`<div class="listrow"><div class="grow"><b>${s.day} · ${s.title}</b><div class="muted">${s.date}</div></div><span class="pill">${s.done} feitos</span></div>`).join(''):'<p class="muted">Seu histórico aparece depois de salvar uma sessão.</p>'}
+function exerciseName(k){const [d,i]=k.split('_');return plan[+d]?.items[+i]?.[0]||'Exercício'}
+function setTimer(s){timer=s;renderTimer();if(timerInt){clearInterval(timerInt);timerInt=null;document.getElementById('timerBtn').textContent='Iniciar'}}
+function renderTimer(){document.getElementById('timer').textContent=String(Math.floor(timer/60)).padStart(2,'0')+':'+String(timer%60).padStart(2,'0')}
+function toggleTimer(){if(timerInt){clearInterval(timerInt);timerInt=null;document.getElementById('timerBtn').textContent='Continuar';return}document.getElementById('timerBtn').textContent='Pausar';timerInt=setInterval(()=>{timer--;renderTimer();if(timer<=0){clearInterval(timerInt);timerInt=null;document.getElementById('timerBtn').textContent='Iniciar';if(navigator.vibrate)navigator.vibrate([200,100,200]);toast('Descanso concluído! Próxima série.')}},1000)}
+function exportData(){const blob=new Blob([JSON.stringify({exportedAt:new Date().toISOString(),data:db},null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='forge-backup.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
+function resetAll(){if(confirm('Apagar treinos, tarefas, hábitos e listas salvas neste aparelho?')){db=initial();persist();renderAll();toast('Dados apagados.')}}
+function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.style.display='block';setTimeout(()=>t.style.display='none',2400)}
+function renderAll(){renderWorkout();renderMealGroup('breakfast',meals.breakfast);renderMealGroup('lunch',meals.lunch);renderMealGroup('snacks',meals.snacks);renderHabits();renderHome();renderProgress()}
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installPrompt=e;document.getElementById('installBtn').classList.remove('hidden')});
+async function installApp(){if(installPrompt){installPrompt.prompt();await installPrompt.userChoice;installPrompt=null}else{toast('Hospede em HTTPS e use o menu do navegador para instalar.')}}
+if('serviceWorker' in navigator && location.protocol.startsWith('http'))window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+document.getElementById('installBtn').classList.add('hidden');
+renderAll();
+</script>
+</body></html>
